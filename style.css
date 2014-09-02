@@ -1,0 +1,30 @@
+body{
+	background: #ffbaba;
+}
+#container{
+	margin: 60px auto;
+	width: 960px;
+}
+.gw-inner{
+	min-height: 80px;
+	background: #fff;
+	padding: 10px;
+	border-radius: 4px;
+}
+b, span.gras{
+	font-weight: bold;
+}
+i{
+	font-style: italic;
+}
+span.rouge {
+    color: red;
+}
+
+span.bleu {
+    color: blue;
+}
+
+span.vert {
+    color: green;
+}
