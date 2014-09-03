@@ -96,7 +96,21 @@ $(document).ready(function(){
                 $("#gras").click(function () {
                     replaceSelectionWithHtml("b",  "gras", getSelectionText());
                 });
-
+                $("#italique").click(function () {
+                    replaceSelectionWithHtml("i",  "italique", getSelectionText());
+                });
+                $("#barre").click(function () {
+                    replaceSelectionWithHtml("span",  "barre", getSelectionText());
+                });
+                $("#souligne").click(function () {
+                    replaceSelectionWithHtml("span",  "souligne", getSelectionText());
+                });
+                $("#sub").click(function () {
+                    replaceSelectionWithHtml("sub",  "sub", getSelectionText());
+                });
+                $("#sup").click(function () {
+                    replaceSelectionWithHtml("sup",  "sup", getSelectionText());
+                });
                 $("#clear").click(function(){
                     var text = $("#edit").text();
                     $("#edit").html(text);
