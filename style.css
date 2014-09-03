@@ -45,3 +45,11 @@ span.bleu {
 span.vert {
     color: green;
 }
+span.norm{
+	vertical-align: center;
+	text-decoration: none;
+	color: black;
+	font-style: none;
+	font-weight: normal;
+	font-size: 1em;
+}

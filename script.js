@@ -105,6 +105,9 @@ $(document).ready(function(){
                 $("#souligne").click(function () {
                     replaceSelectionWithHtml("span",  "souligne", getSelectionText());
                 });
+                $("#norm").click(function () {
+                    replaceSelectionWithHtml("span",  "norm", getSelectionText());
+                });
                 $("#sub").click(function () {
                     replaceSelectionWithHtml("sub",  "sub", getSelectionText());
                 });
